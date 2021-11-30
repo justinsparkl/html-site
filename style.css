@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(assets/Yosemite.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 100px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #d4d5d3;
+    font-size: 27px;
+    font-family: 'Roboto', Arial, sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #7fffd4;
+}
+
+.body{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+
+.body .bcon{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+
+.body .abtbtn{
+    width: 160px;
+    height: 40px;
+    background: aquamarine;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 15pxpx;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.body .abtbtn a{
+    color: blue;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.abtbtn:hover{
+    background-color: white;
+}
+
+.contactform{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20%;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.contactform h3{
+    width: 220px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 18px;
+    background-color: rgba(46, 36, 17, 0.466);
+    border-radius:  10px;
+    margin: 2px;
+    padding: 8px;
+}
